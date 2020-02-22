@@ -1,0 +1,30 @@
+{
+  "name": "pingip-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint --ignore-path .gitignore .",
+    "prettier": "prettier --single-quote --trailing-comma es5 --print-width 80 --write --no-bracket-spacing **/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pprachit09/pingip-node.git"
+  },
+  "keywords": [
+    "Node"
+  ],
+  "author": "Prachit Patil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pprachit09/pingip-node/issues"
+  },
+  "homepage": "https://github.com/pprachit09/pingip-node#readme",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.20.1",
+    "prettier": "^1.19.1"
+  }
+}
